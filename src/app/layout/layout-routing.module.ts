@@ -21,6 +21,11 @@ const routes: Routes = [
                 loadChildren: './charts/charts.module#ChartsModule'
             },
             {
+                path: 'persona',
+                loadChildren: './public/public.module#PublicModule'
+            }
+            ,
+            {
                 path: 'components',
                 loadChildren:
                     './material-components/material-components.module#MaterialComponentsModule'

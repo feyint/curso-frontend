@@ -17,3 +17,13 @@ body {
 .mb-20 {
     margin-bottom: 20px;
 }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container > * {
+    width: 100%;
+  }
+  
